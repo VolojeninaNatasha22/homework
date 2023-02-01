@@ -2,7 +2,7 @@ Module Program
     Sub Main(args As String())
         Dim s As String
         Dim spaces, wolves, i, consonants, punctuation As Integer
-        Console.WriteLine("Введите строчку: ")
+        Console.WriteLine("Р’РІРµРґРёС‚Рµ СЃС‚СЂРѕС‡РєСѓ: ")
         s = Console.ReadLine()
         For i = 0 To s.Length - 1
             Select Case Asc(s.Chars(i))
@@ -21,10 +21,10 @@ Module Program
 
             End Select
         Next
-        Console.WriteLine("Пробелов = {0}", spaces)
-        Console.WriteLine("Гласных = {0}", wolves)
-        Console.WriteLine("Согласных = {0}", consonants)
-        Console.WriteLine("Знаков препинания = {0}", punctuation)
+        Console.WriteLine("РџСЂРѕР±РµР»РѕРІ = {0}", spaces)
+    Console.WriteLine("Р“Р»Р°СЃРЅС‹С… = {0}", wolves)
+        Console.WriteLine("РЎРѕРіР»Р°СЃРЅС‹С… = {0}", consonants)
+    Console.WriteLine("Р—РЅР°РєРё РїСЂРµРїРёРЅР°РЅРёСЏ = {0}", punctuation)
     End Sub
 End Module
 
